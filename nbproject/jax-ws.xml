@@ -4,6 +4,9 @@
     <service name="VehiculeWebService">
       <implementation-class>webservice.VehiculeWebService</implementation-class>
     </service>
+    <service name="ContactWebService">
+      <implementation-class>webservice.ContactWebService</implementation-class>
+    </service>
   </services>
   <clients/>
 </jax-ws>
